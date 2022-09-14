@@ -1,0 +1,26 @@
+.navbar {
+    min-height: 10vh;
+    // background: rgb(49, 49, 51);
+    // background: linear-gradient(90deg, rgba(49, 49, 51, 1) 15%, rgba(29, 29, 31, 1) 81%);
+    background-color: #333;
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        color: #fff;
+    }
+
+    .menu {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        li {
+            list-style-type: none;
+            color: #fff;
+        }
+    }
+}
